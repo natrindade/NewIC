@@ -9,9 +9,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Comeco$projeto1_1.coverage" NAME="projeto1.1 Coverage Results" MODIFIED="1555205947333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Comeco$projeto1_1__2_.coverage" NAME="projeto1.1 (2) Coverage Results" MODIFIED="1557021752962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../IC" />
+    <SUITE FILE_PATH="coverage/Comeco$projeto1_1.coverage" NAME="projeto1.1 Coverage Results" MODIFIED="1557019597892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Comeco$rotacao_cotovelo.coverage" NAME="rotacao_cotovelo Coverage Results" MODIFIED="1555192630333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Comeco$blabla.coverage" NAME="blabla Coverage Results" MODIFIED="1541892128120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Comeco$projeto1_1__1_.coverage" NAME="projeto1.1 (1) Coverage Results" MODIFIED="1557019744440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Comeco$Comeco.coverage" NAME="Comeco Coverage Results" MODIFIED="1541863422855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Comeco$Simulacao.coverage" NAME="Simulacao Coverage Results" MODIFIED="1550438112396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Comeco$Cone.coverage" NAME="Cone Coverage Results" MODIFIED="1550021278906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -60,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rotacao_cotovelo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8075">
+            <state relative-caret-position="315">
               <caret line="478" column="26" selection-start-line="478" selection-start-column="26" selection-end-line="478" selection-end-column="26" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -70,10 +72,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projeto1.1">
+        <entry file="file://$PROJECT_DIR$/../IC/projeto1.1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="498" column="19" selection-start-line="498" selection-start-column="19" selection-end-line="498" selection-end-column="19" />
+            <state relative-caret-position="238">
+              <caret line="531" column="4" selection-start-line="531" selection-start-column="4" selection-end-line="531" selection-end-column="4" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -89,6 +91,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,6 +121,8 @@
         <option value="$PROJECT_DIR$/Esfera.py" />
         <option value="$PROJECT_DIR$/rotacao_cotovelo.py" />
         <option value="$PROJECT_DIR$/projeto1.1" />
+        <option value="$PROJECT_DIR$/projeto1.1.py" />
+        <option value="$PROJECT_DIR$/../IC/projeto1.1.py" />
       </list>
     </option>
   </component>
@@ -129,12 +138,22 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Comeco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewIC" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IC/projeto1.1.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -153,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.projeto1.1">
+  <component name="RunManager" selected="Python.projeto1.1 (2)">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="começo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,28 +241,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Simulacao" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Comeco" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simulacao.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="começo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,6 +255,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="projeto1.1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Comeco" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projeto1.1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="projeto1.1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Comeco" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../IC" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../IC/projeto1.1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,22 +425,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in testes.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Comeco" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testes.py&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <module name="começo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -438,19 +463,19 @@
       <item itemvalue="Python.projeto1.1" />
       <item itemvalue="Python.trapezoid" />
       <item itemvalue="Python.Comeco" />
-      <item itemvalue="Python.Simulacao" />
       <item itemvalue="Python.rotacao_cotovelo" />
-      <item itemvalue="Python tests.Unittests in testes.py" />
       <item itemvalue="Python tests.Unittests in testes.py (1)" />
       <item itemvalue="Python tests.Unittests in testes.py (2)" />
+      <item itemvalue="Python.projeto1.1 (1)" />
+      <item itemvalue="Python.projeto1.1 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.projeto1.1 (2)" />
+        <item itemvalue="Python.projeto1.1 (1)" />
         <item itemvalue="Python.rotacao_cotovelo" />
         <item itemvalue="Python tests.Unittests in testes.py (2)" />
         <item itemvalue="Python tests.Unittests in testes.py (1)" />
-        <item itemvalue="Python tests.Unittests in testes.py" />
-        <item itemvalue="Python.Simulacao" />
       </list>
     </recent_temporary>
   </component>
@@ -465,25 +490,24 @@
       <option name="presentableId" value="Default" />
       <updated>1534342591578</updated>
       <workItem from="1556551251488" duration="579000" />
+      <workItem from="1557018471415" duration="3208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="579000" />
+    <option name="totallyTimeSpent" value="3787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-7" y="2" width="1374" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2587519" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33438486" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967898" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39833334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -491,12 +515,14 @@
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,14 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trapezoid.py" />
     <entry file="file://$PROJECT_DIR$/blabla.py" />
-    <entry file="file://$USER_HOME$/Downloads/Prog_Massa_Mola_VPython.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Teste.py" />
+    <entry file="file://$USER_HOME$/Downloads/Prog_Massa_Mola_VPython.py" />
+    <entry file="file://$PROJECT_DIR$/teste.py" />
     <entry file="file://C:/Python27/Lib/site-packages/vis/primitives.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -545,13 +565,7 @@
     <entry file="file://$PROJECT_DIR$/Cone_Ulna.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/teste.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Bola.py" />
-    <entry file="file://$USER_HOME$/Downloads/teste.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/teste.py" />
     <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-762174762/vis/cvisual/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -591,9 +605,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projeto1.1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3865">
+          <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/projeto1.1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto1.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="525" lean-forward="true" selection-start-line="525" selection-end-line="525" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="1082" selection-start-line="1082" selection-end-line="1082" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rotacao_cotovelo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8075">
+        <state relative-caret-position="315">
           <caret line="478" column="26" selection-start-line="478" selection-start-column="26" selection-end-line="478" selection-end-column="26" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -601,10 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projeto1.1">
+    <entry file="file://$PROJECT_DIR$/../IC/projeto1.1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="498" column="19" selection-start-line="498" selection-start-column="19" selection-end-line="498" selection-end-column="19" />
+        <state relative-caret-position="238">
+          <caret line="531" column="4" selection-start-line="531" selection-start-column="4" selection-end-line="531" selection-end-column="4" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
