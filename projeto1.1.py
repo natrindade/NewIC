@@ -7,12 +7,18 @@ from visual import *
 
 frame1=frame()#instancia, frame(objeto), frame() projeto do objeto,
 frame2=frame()
+frame3=frame()
+
+
+
+
 
 Ombro=Esfera(frame1)
 
 Ombro.posicao(2.5,0,0)
 Ombro.raio(2.5)
 Ombro.cor(color.white)
+
 
 Umero1 = Cilindro(frame1)
 
@@ -26,17 +32,20 @@ Umero2.posicao(5.5,0.1,0)
 Umero2.eixo(1,0,0)
 Umero2.raio(1.4)
 
+
 Umero3 = Cilindro(frame1)
 
 Umero3.posicao(6.5,0.2,0)
 Umero3.eixo(1,0,0)
 Umero3.raio(1.3)
 
+
 Umero4 = Cilindro(frame1)
 
 Umero4.posicao(7.5,0.3,0)
 Umero4.eixo(1,0,0)
 Umero4.raio(1.2)
+
 
 Umero5 = Cilindro(frame1)
 
@@ -56,6 +65,7 @@ Umero7.posicao(10.5,0.6,0)
 Umero7.eixo(1,0,0)
 Umero7.raio(1.1)
 
+
 Umero8 = Cilindro(frame1)
 
 Umero8.posicao(11.5,0.7,0)
@@ -67,9 +77,12 @@ Umero9 = Cilindro(frame1)
 #-------------------------------------------------------------------------------------------------------------------------------
 #2 parte do umero a partir dos 12.5cm
 
+
 Umero9.posicao(12.5,0.8,0)
 Umero9.eixo(1,0,0)
 Umero9.raio(1.1)
+
+
 
 Umero10 = Cilindro(frame1)
 
@@ -82,6 +95,7 @@ Umero11 = Cilindro(frame1)
 Umero11.posicao(14.5,0.9,0)
 Umero11.eixo(1,0,0)
 Umero11.raio(1.1)
+
 
 Umero12 = Cilindro(frame1)
 
@@ -474,6 +488,7 @@ CentroMassa.posicao(55.596,0.135,0)
 CentroMassa.raio(1.5)
 CentroMassa.cor(color.red)
 
+
 #-------------------------------------------------------------------------------------------------------------------------------------
 #melhorando a obsevacao da movimentacao do braco
 
@@ -482,6 +497,7 @@ frame2.rotate(angle=pi/2, axis=(1, 0, 0), origin=(0, 0, 0))
 
 #--------------------------------------------------------------------------------------------------------------------------------------
 #grafico de posicao
+
 
 # ___ Tempo ___
 tempo_a = 10  # [s] : Tempo de amostragem
@@ -501,22 +517,44 @@ graph1 = gdisplay(x=386, y=25, width=439, height=237, #parece que x e y sao o ta
                   xmax=30, xmin=-30, ymax=30, ymin=-30,
                   foreground=color.black, background=color.white)
 
-grafico =gcurve(gdisplay=graph1,color=color.blue)
+
+
 
 # ___ Loop ___
 finished = False
 rate_time = 1.3 * N_pontos / tempo_a
 start = clock()
 
+
 tempo = 0.
 cont = 0
 w = 1.61*pi/(2*tempo_a)
+#w = pi/(2*tempo_a)
 d_teta = w*dt
+
+grafico = gcurve(gdisplay=graph1,color=color.blue)
+
+flag = false
+valorAnterior = 0
+
+def plataGrafico(grafico, pos_CM):
+    global flag
+    global valorAnterior
+
+    print(str(pos_CM.x) + " - " + str(pos_CM.z))
+    if(valorAnterior > pos_CM.x):
+        flag = true
+
+    cor = color.red
+    if (flag):
+        cor = color.blue
+    grafico.plot(pos=(pos_CM.x, pos_CM.z * -1), color=cor)
+
+    valorAnterior = pos_CM.x
+
 
 while not finished:
     rate(rate_time)
-
-    print("Vamos ver quando que da o problema" + str(cont))
 
     tempo = t[cont]
 
@@ -526,28 +564,13 @@ while not finished:
 
     frame_pos = frame2.world_to_frame(pos_CM)
 
-    print pos_CM.y #pq y da um valor negativo?
-
-    grafico.plot(pos=(pos_CM.x,(pos_CM.z)*-1)
-   # a += 0.1
-    #if a >= 0.6:
-    #       a = 0
-    #       break
+    ponto = 23
+    plataGrafico(grafico, pos_CM)
 
     cont = cont + 1
 
     if tempo >= t[t.__len__() - 1]:
-        finished = True
-
-    #pos_CM = CentrodeMassa.frame_to_world()
-    #xCM = pos_CM[0]
-    #yCM = pos_CM[1]
-
-    #grafico.plot(pos=(xCM,yCM))
-
-
-
-
+      finished = True
 
 print ''
 print '__Processamento__'
@@ -555,75 +578,3 @@ print 'Foram realizadas %i iteracoes' % (cont)
 tempo_gasto = clock() - start
 print 'Tempo gasto: %f segundos' % tempo_gasto
 print 'Tempo plotado: %f segundos' % tempo
-
-
-#grafico.plot(pos=(frame_pos.x,frame_pos.y))
-    #graf_rad.plot(pos=(tempo * Wn, x))
-
-    #frame2.rotate(angle=a, axis=(0, 1, 0), origin=(23.7, 0, 0))
-
-
-
-
-#a=0
-
-#t = 0.1
-#while 1: #codigo while que funcionou
-
- #   rate(10)
- #   frame2.rotate(angle=a, axis=(0,1,0), origin=(23.7, 0, 0)) #sinalizo em axis que irei rotacionar em relacao ao eixo y
-  #  print(a)
- #   a += 0.1
- #   if a >= 0.6:
- #       a = 0
- #       break
- #   grafico.plot(pos=(a, frame2.pos.z)) # nao tem como colocar o CM pra movimentar
-
-
-
-#rotaciono com relacao a y, porem a mudanca de posicao e feita graficamente e observada no eixo z(profundidade) ou x("comprimento")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
